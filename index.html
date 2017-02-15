@@ -1,47 +1,75 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/variables.css">
 </head>
 <body>
-<div>
-<h1>Lorem ipsum dolor sit</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud reLorem</p>
-<button type="button" data-toggle="modal" data-target="#myModal">Регистрация</button>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <form>
-        	<label>Фамилия</label>
-        	<input><br>
-        	<label>Имя</label>
-        	<input><br>
-        	<label>Отчество</label>
-        	<input><br>
-        	<label>Направление</label>
-        	<select>
-        		<option></option>
-        		<option></option>
-        	</select><br>
-        	<label>Пол</label>
-        	<input type="checkbox">М
-   			<input type="checkbox">Ж<br>
-   			<button>Регистрация</button>
-   			<button>Отмена</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-</div>
-<div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+	<div class="main">
+		<h1>Lorem ipsum dolor sit</h1>
+		<p class="glav">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud reLorem</p>
+		<button type="button" class="center-block regi" data-toggle="modal" data-target="#myModal">РЕГИСТРАЦИЯ</button>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Фамилия</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Имя</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Отчество</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Направление</label>
+								<div class="col-sm-9">
+									<select class="form-control">
+										<option></option>
+										<option></option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">Пол</label>
+								<div class="col-sm-9">
+									<input type="radio" name="pol">М
+									<input type="radio" name="pol">Ж
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="center">
+									<button class="regi">РЕГИСТРАЦИЯ</button>
+									<button class="otmena">ОТМЕНА</button>
+								</div>
+							</div>         
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer col-md-12"> 
+		<div class="col-md-3 left">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+		</div>
+		<div class="col-md-6"></div>
+		<div class="col-md-3 right">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
